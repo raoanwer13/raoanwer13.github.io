@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Complete publication record of Rao Muhammad Anwer, arranged and searchable by year." />
+  <meta name="theme-color" content="#ffffff" />
+  <title>Publications — Rao Muhammad Anwer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+  <script src="publications-data.js" defer></script>
+  <script src="publications-page.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="page header-row">
+      <a class="site-name" href="index.html" aria-label="Rao Muhammad Anwer, home">
+        <span class="site-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+            stroke-linecap="round" stroke-linejoin="round" focusable="false">
+            <path d="m3 9 9-5 9 5-9 5-9-5Z" />
+            <path d="M7 12v4c2.8 2.2 7.2 2.2 10 0v-4" />
+            <path d="M21 9v6" />
+          </svg>
+        </span>
+        <span>Academic profile</span>
+      </a>
+
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-navigation">
+        <span class="sr-only">Toggle navigation</span>
+        Menu
+      </button>
+
+      <nav id="primary-navigation" class="site-nav" aria-label="Primary navigation">
+        <a href="index.html#about">About</a>
+        <a href="index.html#research">Research</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="publications.html" aria-current="page">Publications</a>
+        <a href="people.html">People</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page publications-main">
+    <header class="publications-hero">
+      <div>
+        <p class="overline">Academic profile / Publication archive</p>
+        <h1>Publications</h1>
+      </div>
+      <div class="publications-hero-copy">
+        <p>
+          The complete publication record, arranged chronologically and searchable
+          by author, title, venue, or year.
+        </p>
+        <div class="publications-source-links">
+          <a href="https://scholar.google.com/citations?user=_KlvMVoAAAAJ&amp;hl=en" target="_blank"
+            rel="noreferrer">Google Scholar ↗</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="publication-metrics" aria-label="Publication metrics">
+      <div><span>Unique publications</span><strong id="unique-publication-count">135</strong></div>
+      <div><span>Publication years</span><strong>16</strong></div>
+      <div><span>Years represented</span><strong>2011–2026</strong></div>
+      <div><span>Citations / H-index</span><strong>9,138+ / 41</strong></div>
+    </div>
+
+    <section class="publication-browser" aria-labelledby="publication-browser-title">
+      <div class="publication-browser-heading">
+        <div>
+          <h2 id="publication-browser-title">Full record</h2>
+        </div>
+        <p id="publication-results-status" role="status" aria-live="polite">
+          Showing 135 publications
+        </p>
+      </div>
+
+      <form class="publication-controls" id="publication-controls" role="search">
+        <label class="publication-search">
+          <span>Search publications</span>
+          <input id="publication-search" name="query" type="search"
+            placeholder="Title, author, venue, or keyword" autocomplete="off" />
+        </label>
+
+        <label>
+          <span>Year</span>
+          <select id="publication-year" name="year">
+            <option value="all">All years</option>
+          </select>
+        </label>
+
+        <label>
+          <span>Order</span>
+          <select id="publication-sort" name="sort">
+            <option value="newest">Newest first</option>
+            <option value="oldest">Oldest first</option>
+          </select>
+        </label>
+
+        <button id="publication-reset" type="reset">Reset</button>
+      </form>
+
+      <nav id="publication-year-nav" class="publication-year-nav" aria-label="Jump to publication year"></nav>
+
+      <div id="full-publication-record" class="full-publication-record" aria-busy="true"></div>
+
+      <div id="publication-empty-state" class="publication-empty-state" hidden>
+        <strong>No matching publications</strong>
+        <p>Try a different keyword or reset the filters.</p>
+      </div>
+
+      <noscript>
+        <p class="publication-noscript">
+          JavaScript is required for the searchable list. You can also browse the
+          record on <a href="https://scholar.google.com/citations?user=_KlvMVoAAAAJ&amp;hl=en">Google Scholar</a>.
+        </p>
+      </noscript>
+    </section>
+  </main>
+
+  <footer class="page site-footer">
+    <p>© <span id="year">2026</span> Rao Muhammad Anwer</p>
+    <a href="index.html">Return to profile ←</a>
+  </footer>
+</body>
+
+</html>
