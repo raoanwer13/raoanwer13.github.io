@@ -41,9 +41,10 @@ Then visit:
 - Update `publications-data.js` from the current CV and public paper/project records.
   `sourceNumbers` are stable archive identifiers inherited from the original import,
   not page or entry numbers in the current CV. Keep accepted papers marked as such.
-- Website metrics updated November 2026. The existing public CV is retained
-  pending approval to publish the newer PDF. The archive also records the
-  verified WACV 2027 acceptance of Ask, Solve, Generate.
+- Website metrics updated from the owner-provided
+  November 2026 CV (10,250 citations, h-index 45). The archive also records the
+  verified WACV 2027 acceptance of Ask, Solve, Generate. The existing public
+  downloadable CV is retained pending explicit approval to publish the replacement.
 - The portrait is referenced as `images/Rao-Muhammad-Anwer-secondary.jpeg`.
 
 This version has no build step, external package, animation, or runtime dependency.
