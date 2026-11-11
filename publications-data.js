@@ -114,7 +114,7 @@ window.PUBLICATIONS = [
     "year": 2026,
     "title": "CoVR-R: Reason-Aware Composed Video Retrieval",
     "authors": "Omkar Thawakar, Dmitry Demidov, Vaishnav Potlapalli, Sai Prasanna Teja Reddy Bogireddy, Viswanatha Reddy Gajjala, Alaa Mostafa Lasheen, Rao Muhammad Anwer, Fahad Shahbaz Khan",
-    "details": "arXiv:2603.20190, 2026."
+    "details": "British Machine Vision Conference (BMVC), 2026. arXiv:2603.20190."
   },
   {
     "sourceNumbers": [
@@ -129,10 +129,10 @@ window.PUBLICATIONS = [
     "sourceNumbers": [
       15
     ],
-    "year": 2026,
+    "year": 2027,
     "title": "Ask, Solve, Generate: Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards",
     "authors": "Ritesh Thawkar, Shravan Venkatraman, Omkar Thawakar, Abdelrahman Shaker, Fahad Khan, Hisham Cholakkal, Salman Khan, Rao Muhammad Anwer",
-    "details": "arXiv:2606.27376, 2026."
+    "details": "Accepted to the Winter Conference on Applications of Computer Vision (WACV), 2027. Preprint: arXiv:2606.27376 (2026)."
   },
   {
     "sourceNumbers": [
@@ -1214,5 +1214,14 @@ window.PUBLICATIONS = [
     "title": "Opponent Color for Human Detection.",
     "authors": "Rao Muhammad Anwer, David Vázquez, Antonio M López",
     "details": "Iberian Conference on Pattern Recognition and Image Analysis (ibPRIA), Las Palmas de Gran Canaria, Spain, 2011."
+  },
+  {
+    "sourceNumbers": [
+      137
+    ],
+    "year": 2026,
+    "title": "Perception Before Supervision: Self-Contained Visual Distillation from Counterfactual Blind Spots",
+    "authors": "Shravan Venkatraman, Omkar Thawakar, Ritesh Thawkar, Abdelrahman Shaker, Rao Muhammad Anwer",
+    "details": "British Machine Vision Conference (BMVC), 2026. arXiv:2608.09931."
   }
 ];

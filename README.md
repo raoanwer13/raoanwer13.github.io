@@ -36,10 +36,14 @@ Then visit:
 - Keep career metrics, appointments, funding, patents, teaching, and supervision dates
   aligned with the current `CV.pdf`.
 - Edit selected publication rows inside `.publication-table`.
-- Keep publication `data-year` values as `2026`, `2025`, or `earlier` so the filters
+- Keep publication `data-year` values as `2027`, `2026`, `2025`, or `earlier` so the filters
   continue to work.
-- Keep `publications-data.js` aligned with the numbered record beginning on page 2 of
-  `CV.pdf`; the duplicate DEFT entry is represented once with both CV numbers.
+- Update `publications-data.js` from the current CV and public paper/project records.
+  `sourceNumbers` are stable archive identifiers inherited from the original import,
+  not page or entry numbers in the current CV. Keep accepted papers marked as such.
+- Website metrics updated November 2026. The existing public CV is retained
+  pending approval to publish the newer PDF. The archive also records the
+  verified WACV 2027 acceptance of Ask, Solve, Generate.
 - The portrait is referenced as `images/Rao-Muhammad-Anwer-secondary.jpeg`.
 
 This version has no build step, external package, animation, or runtime dependency.
